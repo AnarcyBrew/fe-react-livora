@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1b38471-aa0f-48af-a3bc-b3e16ae19c03" name="Changes" comment="" />
+    <list default="true" id="a1b38471-aa0f-48af-a3bc-b3e16ae19c03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/parts/HomePage/JustArrived.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/content/image-arrived-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/content/image-arrived-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/content/image-arrived-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/content/image-arrived-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/content/image-arrived-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,11 +63,28 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/content" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/assets/images/content" />
+      <recent name="$PROJECT_DIR$/public/assets/images" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -69,10 +102,16 @@
       <updated>1735743755134</updated>
       <workItem from="1735743756264" duration="1480000" />
       <workItem from="1735745578287" duration="544000" />
+      <workItem from="1735746526699" duration="14193000" />
+      <workItem from="1735808022794" duration="2668000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HTML to ReactJS : &#10;1. HomePage.js&#10;2. Hero" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTML to ReactJS : &#10;1. HomePage.js&#10;2. Hero" />
   </component>
 </project>
