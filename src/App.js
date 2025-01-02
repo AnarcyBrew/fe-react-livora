@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./assets/css/app.css";
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="bg-blue-500">
-      <h1 className="text-2xl font-bold text-white">
-        Hello, world!
-      </h1>
-      <p className="mt-2 text-white">Tailwind CSS is working correctly</p>
+    <div className="App">
+      <Router>
+          <Routes>
+              <Route path="/" element={<HomePage />} />
+          </Routes>
+      </Router>
     </div>
   );
 }
