@@ -2,7 +2,9 @@ import Header from "../parts/Header";
 import Hero from "../parts/Hero";
 import JustArrived from "../parts/HomePage/JustArrived";
 import BrowseRoom from "../parts/HomePage/BrowseRoom";
-import Clients from "../parts/HomePage/Clients";
+import Client from "../parts/Client";
+import Sitemap from "../parts/Sitemap";
+import Footer from "../parts/Footer";
 
 export default function HomePage() {
     return (
@@ -11,7 +13,9 @@ export default function HomePage() {
             <Hero/>
             <BrowseRoom/>
             <JustArrived/>
-            <Clients/>
+            <Client/>
+            <Sitemap/>
+            <Footer/>
         </>
     )
 }

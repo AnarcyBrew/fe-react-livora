@@ -1,4 +1,4 @@
-export default function Clients() {
+export default function Client() {
     return (
         <section className="container mx-auto">
             <div className="flex flex-wrap justify-center">
