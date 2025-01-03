@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 
 export default function Sitemap() {
     return (
-        <section className="">
+        <section className="sitemap">
             <div className="px-4 py-12 mt-16 border-t border-b border-gray-200">
                 <div className="flex justify-center mb-8">
                     <img
