@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 export default function JustArrived() {
     return (
         <section className="flex flex-col py-16">
@@ -42,16 +44,16 @@ export default function JustArrived() {
                                 </div>
                             </div>
                             <img
-                                src="images/content/image-arrived-1.png"
+                                src="/images/content/image-arrived-1.png"
                                 alt=""
                                 className="object-cover object-center w-full h-full"
                             />
                         </div>
                         <h5 className="mt-4 text-lg font-semibold">Cangkir Mauttie</h5>
                         <span className="">IDR 89.300</span>
-                        <a href="details.html" className="stretched-link">
+                        <Link to={"/details"} className="stretched-link">
                             {/* <!-- fake children --> */}
-                        </a>
+                        </Link>
                     </div>
                     {/* <!-- END: JUST ARRIVED ROW 1 --> */}
 
