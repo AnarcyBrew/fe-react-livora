@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1b38471-aa0f-48af-a3bc-b3e16ae19c03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/parts/Details/ProductDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parts/Details/Suggestion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/Cart/ShippingDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/Cart/ShoppingCart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/content/chair-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/content/chair-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/content/chair-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/content/chair-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/content/chair-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/content/chair-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/content/chair-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/content/chair-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/content/showcase-1.back.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/content/showcase-1.back.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/content/showcase-1.back.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/content/showcase-1.back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/content/showcase-1.front.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/content/showcase-1.front.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/content/showcase-1.front.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/content/showcase-1.front.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/content/showcase-1.main.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/content/showcase-1.main.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/content/showcase-1.rear.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/content/showcase-1.rear.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/content/showcase-1.rear.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/content/showcase-1.rear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/content/showcase-1.side.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/content/showcase-1.side.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/content/showcase-1.side.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/content/showcase-1.side.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/content/showcase-1.top.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/content/showcase-1.top.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parts/Sitemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/parts/Sitemap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +60,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -117,7 +102,7 @@
       <workItem from="1735745578287" duration="544000" />
       <workItem from="1735746526699" duration="14193000" />
       <workItem from="1735808022794" duration="2668000" />
-      <workItem from="1735810863985" duration="14076000" />
+      <workItem from="1735810863985" duration="17332000" />
     </task>
     <servers />
   </component>
