@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1b38471-aa0f-48af-a3bc-b3e16ae19c03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parts/Cart/ShippingDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parts/Cart/ShoppingCart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Success.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/PageErrorMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/content/illustration-success.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/content/illustration-success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +57,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/putroandrianto/Sites/localhost/react-luxspace",
+    "last_opened_file_path": "/Users/putroandrianto/Projects/Project LuxSpace/fe-react-luxspace",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "Errors",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -86,7 +89,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
       </set>
     </attachedChunks>
   </component>
@@ -103,6 +106,13 @@
       <workItem from="1735746526699" duration="14193000" />
       <workItem from="1735808022794" duration="2668000" />
       <workItem from="1735810863985" duration="17332000" />
+      <workItem from="1735970491500" duration="18000" />
+      <workItem from="1735992340762" duration="101000" />
+      <workItem from="1736224285758" duration="5043000" />
+      <workItem from="1736235879323" duration="1201000" />
+      <workItem from="1736315017414" duration="13000" />
+      <workItem from="1738281793703" duration="470000" />
+      <workItem from="1738282277862" duration="1757000" />
     </task>
     <servers />
   </component>
