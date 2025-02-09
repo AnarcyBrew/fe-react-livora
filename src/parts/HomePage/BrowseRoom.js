@@ -1,6 +1,10 @@
 import {Link} from "react-router-dom";
+import useAsync from "../../helpers/hooks/useAsync";
 
 export default function BrowseRoom() {
+
+    const { data, status, error, run } = useAsync({ data: {username:""} });
+
     return (
         <section className="flex px-4 py-16 bg-gray-100" id="browse-the-room">
             <div className="container mx-auto">
