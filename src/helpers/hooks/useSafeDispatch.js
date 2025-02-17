@@ -1,9 +1,9 @@
 import { useCallback, useLayoutEffect, useRef } from "react";
 
-export default function useSafeDispatch() {
-    
+export default function useSafeDispatch(dispatch) {
+
     const mounted = useRef(false)
-    
+
     useLayoutEffect(() => {
         mounted.current = true
         return () => {
@@ -12,7 +12,7 @@ export default function useSafeDispatch() {
     }, [])
 
     return useCallback(
-        (...args) => mounted.current ? dispatch(...args) : void 0,
+        (...args) => mounted.current ? dispatch(...args) : undefined,
         [dispatch]
     )
 

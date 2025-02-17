@@ -1,4 +1,4 @@
-import {useCallback, useReducer, useRef, useState} from "react";
+import { useCallback, useReducer, useRef } from "react";
 import useSafeDispatch from "./useSafeDispatch";
 
 const defaultState = {
@@ -14,11 +14,12 @@ export default function useAsync(initialState) {
         ...initialState
     })
 
-    const [{data, status, error}, setState] = useReducer((state, action) => {
-        return {...state, ...action}
+    const [state, unsafeDispatch] = useReducer((state, action) => {
+        return { ...state, ...action }
     }, initialStateRef.current)
 
-    const safeSetState = useSafeDispatch(setState())
+    const { data, status, error } = state
+    const safeSetState = useSafeDispatch(unsafeDispatch)
 
     const run = useCallback(
         (promise) => {
@@ -52,21 +53,21 @@ export default function useAsync(initialState) {
                 }
             )
         },
-        [safeSetState()]
+        [safeSetState]
     )
 
     const setData = useCallback(
         (data) => {
-            safeSetState({data})
+            safeSetState({ data })
         },
         [safeSetState]
     )
 
     const setError = useCallback(
         (error) => {
-            safeSetState({error})
+            safeSetState({ error })
         },
-        [error]
+        [safeSetState]
     )
 
     const reset = useCallback(
