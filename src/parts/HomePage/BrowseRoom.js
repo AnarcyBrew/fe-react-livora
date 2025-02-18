@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import useAsync from "../../helpers/hooks/useAsync";
 import { useEffect } from "react";
-import fetch from "../../helpers/fetch";
+import fetchData from "../../helpers/fetch";
 
 function Loading({ratio = {}}) {
     const dummy = [
@@ -64,14 +64,11 @@ export default function BrowseRoom() {
         run,
         isLoading
     } = useAsync({
-        data: {
-            username: ""
-        }
     });
 
     useEffect(() => {
         run(
-            fetch({
+            fetchData({
                 url: "/api/categories/?page=1&limit=4",
                 method: "GET",
             }
