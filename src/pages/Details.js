@@ -5,7 +5,7 @@ import Footer from "../parts/Footer";
 import ProductDetails from "../parts/Details/ProductDetails";
 import Suggestion from "../parts/Details/Suggestion";
 import useAsync from "../helpers/hooks/useAsync";
-import React, {useEffect} from "react";
+import React from "react";
 import fetchData from "../helpers/fetch";
 import {useParams} from "react-router-dom";
 import Document from "../parts/Document";
@@ -107,7 +107,7 @@ export default function Details() {
     const { data, error, run, isLoading, isError } = useAsync();
 
     React.useEffect(() => {
-        run(fetch({ url: `/api/products/${idp}` }));
+        run(fetchData({ url: `/api/products/${idp}` }));
     }, [run, idp]);
 
     return (

@@ -4,10 +4,11 @@ import Footer from "../parts/Footer";
 import Breadcrumb from "../components/Breadcrumb";
 import ShoppingCart from "../parts/Cart/ShoppingCart";
 import ShippingDetails from "../parts/Cart/ShippingDetails";
+import Document from "../parts/Document";
 
 export default function Cart() {
     return (
-        <>
+        <Document>
             <Header theme={ "black" }/>
             <Breadcrumb list={ [
                 { url: "/", name: "Home" },
@@ -25,6 +26,6 @@ export default function Cart() {
 
             <Sitemap/>
             <Footer/>
-        </>
+        </Document>
     )
 }

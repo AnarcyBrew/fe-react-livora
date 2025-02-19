@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1b38471-aa0f-48af-a3bc-b3e16ae19c03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/helpers/hooks/useScrollToTop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parts/Document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/format/currency.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/hooks/useForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/hooks/useGlobalContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parts/Cart/ShippingDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/parts/Cart/ShippingDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parts/Cart/ShoppingCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/parts/Cart/ShoppingCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parts/Details/ProductDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/parts/Details/ProductDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parts/Details/Suggestion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/parts/Details/Suggestion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parts/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/parts/Header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +50,9 @@
     &quot;accountId&quot;: &quot;1071c891-8b22-482f-bfc0-ebd59c805cbe&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -55,7 +69,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/putroandrianto/Projects/Project LuxSpace - Homura/fe-react-luxspace",
+    "last_opened_file_path": "/Users/putroandrianto/Projects/Project LuxSpace - Homura/fe-react-luxspace/src/assets/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +90,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/parts/HomePage" />
       <recent name="$PROJECT_DIR$/public/images/content" />
@@ -133,7 +150,10 @@
       <workItem from="1739779240431" duration="90000" />
       <workItem from="1739860091117" duration="131000" />
       <workItem from="1739860241965" duration="1930000" />
-      <workItem from="1739868554480" duration="3765000" />
+      <workItem from="1739868554480" duration="4916000" />
+      <workItem from="1739908731444" duration="37000" />
+      <workItem from="1739939824789" duration="4087000" />
+      <workItem from="1739949971110" duration="2637000" />
     </task>
     <servers />
   </component>
