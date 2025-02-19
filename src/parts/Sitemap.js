@@ -49,8 +49,8 @@ export default function Sitemap() {
             <div className="border-b border-gray-200 py-12 mt-16 px-4">
                 <div className="flex justify-center mb-8">
                     <img
-                        src="/images/content/logo.png"
-                        alt="Luxspace | Fulfill your house with beautiful furniture"
+                        src="/images/content/logo-livora.png"
+                        alt="Livora | Fulfill your house with beautiful furniture"
                     />
                 </div>
                 <aside className="container mx-auto">
@@ -132,7 +132,7 @@ export default function Sitemap() {
                                         className="bg-gray-100 rounded-xl py-3 px-5 w-full focus:outline-none"
                                         placeholder="Your email adress"
                                     />
-                                    <button className="bg-pink-400 absolute rounded-xl right-0 p-3">
+                                    <button className="bg-yellow-400 absolute rounded-xl right-0 p-3">
                                         <svg
                                             width="24"
                                             height="24"

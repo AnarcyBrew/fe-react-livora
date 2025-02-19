@@ -28,8 +28,8 @@ export default function Header({ theme, position }) {
                     <div className="w-56 items-center flex">
                         <Link to="/">
                             <img
-                                src="/images/content/logo.png"
-                                alt="Luxspace | Fulfill your house with beautiful furniture"
+                                src="/images/content/logo-livora.png"
+                                alt="Livora | Fulfill your house with beautiful furniture"
                             />
                         </Link>
                     </div>

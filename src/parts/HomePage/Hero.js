@@ -4,17 +4,17 @@ export default function Hero() {
             <div
                 className="absolute inset-0 z-20 flex flex-col justify-center w-full text-center md:relative md:w-1/2 hero-caption"
             >
-                <h1 className="text-3xl font-semibold leading-tight md:text-5xl">
-                    The Room <br className=""/>You've Dreaming
+                <h1 className="text-3xl font-semibold leading-tight md:text-4xl">
+                    Elegansi & Kenyamanan <br className=""/>Di Setiap Sudut Rumahmu
                 </h1>
                 <h2 className="px-8 my-6 text-base tracking-wide md:px-0 md:text-lg">
-                    Kami menyediakan furniture berkelas yang
-                    <br className="hidden lg:block"/>membuat ruangan terasa homey
+                    Temukan koleksi eksklusif perabotan rumah dengan desain modern
+                    <br className="hidden lg:block"/>dengan sentuhan gaya dan kenyamanan dari Livora.
                 </h2>
                 <div>
                     <a
                         href="#browse-the-room"
-                        className="flex-none inline-block px-8 py-3 mt-4 text-black transition duration-200 bg-pink-400 rounded-full hover:bg-black hover:text-pink-400"
+                        className="flex-none inline-block px-8 py-3 mt-4 text-black transition duration-200 bg-yellow-300 rounded-full hover:bg-black hover:text-yellow-300"
                     >Explore Now</a
                     >
                 </div>
