@@ -5,11 +5,11 @@ export default function Hero() {
                 className="absolute inset-0 z-20 flex flex-col justify-center w-full text-center md:relative md:w-1/2 hero-caption"
             >
                 <h1 className="text-3xl font-semibold leading-tight md:text-4xl">
-                    Elegansi & Kenyamanan <br className=""/>Di Setiap Sudut Rumahmu
+                    Elegansi & Kenyamanan <br className="" />Di Setiap Sudut Rumahmu
                 </h1>
                 <h2 className="px-8 my-6 text-base tracking-wide md:px-0 md:text-lg">
                     Temukan koleksi eksklusif perabotan rumah dengan desain modern
-                    <br className="hidden lg:block"/>dengan sentuhan gaya dan kenyamanan dari Livora.
+                    <br className="hidden lg:block" />dengan sentuhan gaya dan kenyamanan dari Livora.
                 </h2>
                 <div>
                     <a
