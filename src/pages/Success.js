@@ -3,15 +3,15 @@ import Breadcrumb from "../components/Breadcrumb";
 import {Link} from "react-router-dom";
 import Sitemap from "../parts/Sitemap";
 import Footer from "../parts/Footer";
+import Document from "../parts/Document";
 
 export default function Success() {
     return (
-        <>
+        <Document>
             <Header theme={ "black" }/>
             <Breadcrumb list={ [
                 { url : "/", name : "Home" },
-                { url : "/cart", name : "Shopping Cart" },
-                { url : "/congratulation", name : "Success Checkout" }
+                { url : "/success", name : "Success Checkout" }
             ] }/>
 
             <section>
@@ -35,6 +35,6 @@ export default function Success() {
 
             <Sitemap/>
             <Footer/>
-        </>
+        </Document>
     )
 }

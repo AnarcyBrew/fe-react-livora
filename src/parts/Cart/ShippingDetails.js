@@ -3,6 +3,7 @@ import {useNavigate} from "react-router-dom";
 import useAsync from "../../helpers/hooks/useAsync";
 import {useGlobalContext} from "../../helpers/hooks/useGlobalContext";
 import useForm from "../../helpers/hooks/useForm";
+import fetchData from "../../helpers/fetch";
 
 export default function ShippingDetails() {
     const navigate = useNavigate();
@@ -26,7 +27,7 @@ export default function ShippingDetails() {
         }).length === Object.keys(payload).length;
 
     React.useEffect(() => {
-        run(fetch({ url: `/api/checkout/meta` }));
+        run(fetchData({ url: `/api/checkout/meta` }));
     }, [run]);
 
     async function fnSubmit(event) {
@@ -42,7 +43,7 @@ export default function ShippingDetails() {
             });
 
             if (res) {
-                navigate.push("/congratulation");
+                navigate("/success");
                 dispatch({
                     type: "RESET_CART",
                 });

@@ -9,7 +9,7 @@ import Document from "../parts/Document";
 export default function Cart() {
     return (
         <Document>
-            <Header theme={ "black" }/>
+            <Header theme={ "dark" }/>
             <Breadcrumb list={ [
                 { url: "/", name: "Home" },
                 { url: "/cart", name: "Shopping Cart" }
